@@ -1,0 +1,22 @@
+html{
+    font-family: Roboto Slab;
+    font-style: Regular;
+    color: #000000;
+    
+}
+
+.comp_logo{
+position: absolute;
+width: 174px;
+height: 38px;
+left: 222px;
+top: 91px;
+}
+
+.landing_img{
+    position: absolute;
+width: 1107px;
+height: 708px;
+left: 734px;
+top: -94px;
+}
