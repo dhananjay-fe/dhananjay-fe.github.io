@@ -4,7 +4,7 @@ title: Jobs
 
 ---
 
-{% include header.html %}
+
 <head>
 {% assign mycss = "/assets/css/main.css" %}
 <link rel="stylesheet" href= "{{ mycss | relative_url }}">
@@ -30,5 +30,5 @@ title: Jobs
   <p>Published on: {{ job.published  }}</p>
 {% endfor %}
 </div>
-{% include footer.html %}
+
 
