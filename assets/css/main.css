@@ -22,6 +22,7 @@ top: -94px;
 }
 
 .header_img{
+    display: none;
    top : 0;
     left: 0;
     width: 100%;
