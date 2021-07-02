@@ -10,7 +10,7 @@
         <link rel="stylesheet" href= "{{ mycss | relative_url }}">
     </head>
     <div>
-        {% assign myLogo = "/assets/images/Frame1.png" %}
+        {% assign myLogo = "{{ site.baseurl }}/assets/images/Frame1.png" %}
         <img class = "comp_logo" src="{{ myLogo | relative_url }}" width= "174px" height= "38px">
     </div>
     <body style="margin: 5rem">
