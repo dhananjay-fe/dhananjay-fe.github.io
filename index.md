@@ -2,11 +2,11 @@
 title: Jobs
 
 ---
+{% include header.html %}
 <head>
 {% assign mycss = "/assets/css/main.css" %}
 <link rel="stylesheet" href= "{{ mycss | relative_url }}">
 </head>
-{% include header.html %}
 <div>
 {% assign myLogo = "/assets/images/Frame1.png" %}
 <img class = "comp_logo" src="{{ myLogo | relative_url }}">
