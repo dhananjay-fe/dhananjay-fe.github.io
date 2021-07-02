@@ -1,6 +1,6 @@
 {% include header.html %}
 ---
-title: Jobs
+title: AllJobs
 
 ---
 
