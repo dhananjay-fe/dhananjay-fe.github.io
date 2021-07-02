@@ -1,8 +1,9 @@
+{% include header.html %}
 ---
 title: Jobs
 
 ---
-{% include header.html %}
+
 <head>
 {% assign mycss = "/assets/css/main.css" %}
 <link rel="stylesheet" href= "{{ mycss | relative_url }}">
