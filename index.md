@@ -3,19 +3,19 @@ title: Jobs
 
 ---
 <head>
-{% assign mycss = "/assets/css/main.css" %}
+{% assign mycss = "{{ site.baseurl }}/assets/css/main.css" %}
 <link rel="stylesheet" href= "{{ mycss | relative_url }}">
 </head>
 <header>
 {% include header.html %}
 </header>
 <div>
-{% assign myLogo = "/assets/images/Frame1.png" %}
+{% assign myLogo = "{{ site.baseurl }}/assets/images/Frame1.png" %}
 <img class = "comp_logo" src="{{ myLogo | relative_url }}">
 </div>
 <br><br>
 <div>
-{% assign myImg = "/assets/images/Rectangle1.png" %}
+{% assign myImg = "{{ site.baseurl }}/assets/images/Rectangle1.png" %}
 <img class = "landing_img" src="{{ myImg | relative_url }}">
 </div>
 <h1>Jobs listing:</h1>
