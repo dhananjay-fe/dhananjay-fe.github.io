@@ -5,9 +5,12 @@ title: Jobs
 
 
 <head>
-{% assign mycss = "/assets/css/main.css" %}
-<link rel="stylesheet" href= "{{ mycss | relative_url }}">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% assign mycss = "/assets/css/main.css" %}
+  <link rel="stylesheet" href= "{{ mycss | relative_url }}">
 </head>
+
 <div id = "Homepage">
   {% include header.html %}
   <section class="sec1">
@@ -20,24 +23,29 @@ title: Jobs
     {% assign myImg = "/assets/images/Rectangle1.png" %}
     <img class = "landing_img" src="{{ myImg | relative_url }}">
   </section>
+
   <section class="sec2">
     <div id="job_list">
       <h1 id = "job_lst_txt" >Available jobs</h1>
       <div  class="uk-margin uk-card uk-card-default uk-card-body">
         {% for job in site.jobs %}
-        <h2>
-          <a href="{{ job.url | relative_url }}" >
-            {{ job.title }}
-          </a>
-        </h2>
-        <p>{{ job.description | markdownify }}</p>
-        <p>Keywords: {{ job.Keywords  }}</p>
-        <p>Location: {{ job.location  }}</p>
-        <div id="job_lst_line"> </div>
-      {% endfor %}
+          <h2>
+            <a href="{{ job.url | relative_url }}" >
+              {{ job.title }}
+            </a>
+          </h2>
+          <p>{{ job.description | markdownify }}</p>
+          <div id="job_info_row">
+            <p><b>Keywords: </b>{{ job.Keywords  }}</p>
+            <p><b>Location: </b>{{ job.location  }}</p>
+            <p><b>Seniority:</b> {{  job.Seniority  }}</p>
+          </div>
+          <div id="job_lst_line"> </div>
+       {% endfor %}
       </div>
     </div>
   </section>
+  
   <section class="sec3">
     <div id="subscribe">
       <span id="sub_text">Subscribe to get alerts</span>

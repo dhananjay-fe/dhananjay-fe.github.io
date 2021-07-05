@@ -10,9 +10,9 @@
         <link rel="stylesheet" href= "{{ mycss | relative_url }}">
     </head>
     <div id = "Homepage">
-        {% include header.html %}
+        
         <section class="sec1">
-            <div class = "logo_container">
+            <div class = "logo_container2">
                 {% assign myLogo = "/assets/images/Frame1.png" %}
                 <img class = "comp_logo" src="{{ myLogo | relative_url }}">
                 <dl id='job_info'>
@@ -42,10 +42,10 @@
 
         <section class="sec3">
             <div id="subscribe">
-            <span id = "sub_text">Subscribe to get alerts</span>
-            <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
-            <button id="get_notified"id= "btnApply" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>    
-        </div>
+                <span id = "sub_text">Subscribe to get alerts</span>
+                <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
+                <button id="get_notified"id= "btnApply" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>    
+            </div>
         </section>
         {% include footer.html %}
     </div>

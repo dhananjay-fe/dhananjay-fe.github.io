@@ -39,12 +39,34 @@ html{
     z-index: 2;
 }
 
+.sec1 .logo_container2{
+    flex: 1 1 auto;
+    margin-left: -82.88px;
+    margin-top: -23,36px;
+    height: 87%;
+    background: #F4F4F4;
+    transform: rotate(-3.71deg);
+    display:flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
 .logo_container .comp_logo{
     flex: 1 1 auto;
-    margin-left: 220px;
+    margin-left: 222px;
     margin-top: 21.93px;
     width: 174px;
 height: 38px;
+transform: rotate(3.71deg);
+}
+
+.logo_container2 .comp_logo{
+    flex: 1 1 auto;
+    margin-left: 222px;
+    margin-top: 21.93px;
+    width: 174px;
+height: 38px;
+transform: rotate(3.71deg);
 }
 
 .logo_container #innovate{
@@ -55,6 +77,7 @@ font-size: 48px;
 line-height: 115%;
 Fill: Solid
 rgba(0, 0, 0, 0.9);
+transform: rotate(3.71deg);
 }
 
 .logo_container #leap{
@@ -65,6 +88,7 @@ rgba(0, 0, 0, 0.9);
     line-height: 175%;
     Fill: Solid
     #000000;
+    transform: rotate(3.71deg);
 }
 .sec1 .landing_img{
     flex: 1 1 auto;
@@ -73,14 +97,18 @@ rgba(0, 0, 0, 0.9);
 }
 
 #Homepage .sec2{
-    flex: 2 1 auto;
+    flex: 1 1 auto;
     order : 3;
+    margin-left: 15%;
 }
 
 #Homepage .sec3{
     flex: 1 1 auto;
     order : 4;
     background: #F4F4F4;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 #Homepage #myFooterid{
@@ -100,6 +128,12 @@ color: #FDB724;
 #job_lst_line{
     background: #FDB724;
     height: 7px;
+    width: 69%;
+    
+}
+
+#subscribe{
+    margin-left: 15%;
 }
 
 #sub_text{
@@ -118,6 +152,7 @@ font-size: 30px;
 line-height: 112.5%;
 /* or 34px */
 color: #000000;
+margin-bottom: 0.045%;
 }
 
 #btnApply{
@@ -128,10 +163,20 @@ line-height: 112.5%;
 color: #FFFFFF;
 background: #FDB724;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+margin-bottom: 11%;
 }
 
-#job_info{
+.logo_container2 #job_info{
     flex: 1 1 auto;
     margin-left: 220px;
     Fill: Solid;
+    transform: rotate(3.71deg);
+}
+
+#job_info_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15%;
+    width: 69%;
 }

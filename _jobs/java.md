@@ -12,6 +12,7 @@ layout: default
 We are an engineering company building products that enable agile companies to implement enterprises grade, no-code solutions for data processing, social workforce performance management and citizen app development for mobile and the web. While being present in Iasi for more than 15 years, for the last couple of years we are having a fresh start building a suite of innovative new products.
 
 We are looking for a junior Java Developer who will collaborate and grow with a team building complex user interfaces and specific components for a new software product.
+<div id="job_lst_line"> </div>
 
 ## This is you:
  - Proactive — You are a collaborative team player who likes to build on ideas and innovate.
