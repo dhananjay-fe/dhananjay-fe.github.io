@@ -1,6 +1,6 @@
 ---
 title: Jobs
-
+layout: none
 ---
 
 
