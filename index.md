@@ -3,31 +3,48 @@ title: Jobs
 
 ---
 
-{% include header.html %}
+
 <head>
 {% assign mycss = "/assets/css/main.css" %}
 <link rel="stylesheet" href= "{{ mycss | relative_url }}">
 </head>
-<div>
-{% assign myLogo = "/assets/images/Frame1.png" %}
-<img class = "comp_logo" src="{{ myLogo | relative_url }}">
+<div id = "Homepage">
+  {% include header.html %}
+  <section class="sec1">
+    <div class = "logo_container">
+      {% assign myLogo = "/assets/images/Frame1.png" %}
+      <img class = "comp_logo" src="{{ myLogo | relative_url }}">
+      <span id = "innovate">Innovation happens when you are free to experiment.</span>
+      <span id = "leap">The leap toward innovation can seem giant, but with daily practice it will eventually happen.</span>
+    </div>
+    {% assign myImg = "/assets/images/Rectangle1.png" %}
+    <img class = "landing_img" src="{{ myImg | relative_url }}">
+  </section>
+  <section class="sec2">
+    <div id="job_list">
+      <h1 id = "job_lst_txt" >Available jobs</h1>
+      <div  class="uk-margin uk-card uk-card-default uk-card-body">
+        {% for job in site.jobs %}
+        <h2>
+          <a href="{{ job.url | relative_url }}" >
+            {{ job.title }}
+          </a>
+        </h2>
+        <p>{{ job.description | markdownify }}</p>
+        <p>Keywords: {{ job.Keywords  }}</p>
+        <p>Location: {{ job.location  }}</p>
+        <div id="job_lst_line"> </div>
+      {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section class="sec3">
+    <div id="subscribe">
+      <span id="sub_text">Subscribe to get alerts</span>
+      <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
+      <button id="get_notified" id= "btnApply" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
+    </div>
+  </section>
+  {% include footer.html %}
 </div>
-<br><br>
-<div>
-{% assign myImg = "/assets/images/Rectangle1.png" %}
-<img class = "landing_img" src="{{ myImg | relative_url }}">
-</div>
-<h1>Jobs listing:</h1>
-<div  class="uk-margin uk-card uk-card-default uk-card-body">
-{% for job in site.jobs %}
-  <h2>
-    <a href="{{ job.url | relative_url }}">
-      {{ job.title }}
-    </a>
-  </h2>
-  <p>{{ job.description | markdownify }}</p>
-  <p>Published on: {{ job.published  }}</p>
-{% endfor %}
-</div>
-{% include footer.html %}
 
