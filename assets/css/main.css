@@ -54,7 +54,7 @@ height: 38px;
 font-size: 48px;
 line-height: 115%;
 Fill: Solid
-rgba(0, 0, 0, 0.9)
+rgba(0, 0, 0, 0.9);
 }
 
 .logo_container #leap{
@@ -64,7 +64,7 @@ rgba(0, 0, 0, 0.9)
     font-size: 24px;
     line-height: 175%;
     Fill: Solid
-    #000000
+    #000000;
 }
 .sec1 .landing_img{
     flex: 1 1 auto;
@@ -133,5 +133,5 @@ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 #job_info{
     flex: 1 1 auto;
     margin-left: 220px;
-    Fill: Solid
+    Fill: Solid;
 }
