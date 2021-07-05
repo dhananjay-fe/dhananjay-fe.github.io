@@ -2,21 +2,136 @@ html{
     font-family: Roboto Slab;
     font-style: Regular;
     color: #000000;
-    
 }
 
-.comp_logo{
-position: absolute;
-width: 174px;
+#Homepage{
+    display: flex;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#Homepage .header_img{
+     order : 1;
+     z-index: 3;
+     flex: 1 1 1.5%;
+     align-self: flex-start;
+ }
+
+#Homepage .sec1{
+    flex: 1 1 auto;
+    order : 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec1 .logo_container{
+    flex: 1 1 auto;
+    margin-left: -80px;
+    margin-top: 12.85px;
+    height: 87%;
+    background: #F4F4F4;
+    transform: rotate(-3.71deg);
+    display:flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.logo_container .comp_logo{
+    flex: 1 1 auto;
+    margin-left: 220px;
+    margin-top: 21.93px;
+    width: 174px;
 height: 38px;
-left: 222px;
-top: 91px;
 }
 
-.landing_img{
-    position: absolute;
-width: 1107px;
-height: 708px;
-left: 734px;
-top: -94px;
+.logo_container #innovate{
+    flex: 1 1 auto;
+    font-weight: 900;
+    margin-left: 220px;
+font-size: 48px;
+line-height: 115%;
+Fill: Solid
+rgba(0, 0, 0, 0.9)
+}
+
+.logo_container #leap{
+    flex: 1 1 auto;
+    font-weight: normal;
+    margin-left: 220px;
+    font-size: 24px;
+    line-height: 175%;
+    Fill: Solid
+    #000000
+}
+.sec1 .landing_img{
+    flex: 1 1 auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+#Homepage .sec2{
+    flex: 2 1 auto;
+    order : 3;
+}
+
+#Homepage .sec3{
+    flex: 1 1 auto;
+    order : 4;
+    background: #F4F4F4;
+}
+
+#Homepage #myFooterid{
+    flex: 1 1 1.5%;
+    order: 5;
+    align-self: flex-end;
+}
+
+#job_lst_txt{
+font-weight: 900;
+font-size: 36px;
+line-height: 175%;
+/* or 63px */
+color: #FDB724;
+}
+
+#job_lst_line{
+    background: #FDB724;
+    height: 7px;
+}
+
+#sub_text{
+font-weight: 900;
+font-size: 36px;
+line-height: 115%;
+/* or 41px */
+color: #FDB724;
+}
+
+#get_notified{
+    background: #C4C4C4;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    font-weight: 900;
+font-size: 30px;
+line-height: 112.5%;
+/* or 34px */
+color: #000000;
+}
+
+#btnApply{
+font-weight: 900;
+font-size: 30px;
+line-height: 112.5%;
+/* or 34px */
+color: #FFFFFF;
+background: #FDB724;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+#job_info{
+    flex: 1 1 auto;
+    margin-left: 220px;
+    Fill: Solid
 }

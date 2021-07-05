@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        {% include header.html %}
+        
         <title>Jobs : {{ page.title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,19 +9,44 @@
         {% assign mycss = "/assets/css/main.css" %}
         <link rel="stylesheet" href= "{{ mycss | relative_url }}">
     </head>
-    <div>
-        {% assign myLogo = "/assets/images/Frame1.png" %}
-        <img class = "comp_logo" src="{{ myLogo | relative_url }}" width= "174px" height= "38px">
-    </div>
-    <body style="margin: 5rem">
-        <h1>{{ page.title }}</h1>
-        {% include breadcrumbs.html %}
-        <article class="uk-article">
-            {{ content }}
-        </article>
-        <footer class="uk-flex uk-flex-center">
-            &copy; to me
-        </footer>
+    <div id = "Homepage">
+        {% include header.html %}
+        <section class="sec1">
+            <div class = "logo_container">
+                {% assign myLogo = "/assets/images/Frame1.png" %}
+                <img class = "comp_logo" src="{{ myLogo | relative_url }}">
+                <dl id='job_info'>
+                    <strong  style="font-size:48px">{{ page.title   }}</strong>  
+                    <p><b>Keywords:</b> {{ page.Keywords  }}</p>
+                    <p><b>Keywords:</b> {{ page.location  }}</p>
+                    <p><b>Seniority:</b> {{  page.Seniority  }}</p>
+                </dl>
+            </div>
+            <div class = "landing_img_flex">
+                {% assign myImg2 = "/assets/images/Rectangle33.png" %}
+                <img class = "landing_img" src="{{ myImg2 | relative_url }}">
+            </div>
+        </section>    
+    
+        <section class="sec2">
+        <a href="/">View all jobs</a>
+            <body style="margin: 5rem">
+                <h1>{{ page.title }}</h1>
+                {% include breadcrumbs.html %}
+                <article class="uk-article">
+                    {{ content }}
+                </article>
+            </body>
+            <button id= "btnApply" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">APPLY NOW</button>
+        </section>
+
+        <section class="sec3">
+            <div id="subscribe">
+            <span id = "sub_text">Subscribe to get alerts</span>
+            <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
+            <button id="get_notified"id= "btnApply" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>    
+        </div>
+        </section>
         {% include footer.html %}
-    </body>
+    </div>
 </html>

@@ -1,7 +1,9 @@
 ---
 title: Java Developer
 description: Short description content for this job title
-published: 2021-05-20
+Keywords: FrontEnd, Java
+location: Iasi
+Seniority: Junior Level
 layout: default
 ---
 

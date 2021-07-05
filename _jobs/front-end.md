@@ -1,7 +1,9 @@
 ---
 title: Front End Developer
 description: Short description content for this job title
-published: 2021-05-20
+Keywords: Java, React, FrontEnd
+location: Iasi
+Seniority: Senior Level
 layout: default
 ---
 
