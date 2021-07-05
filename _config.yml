@@ -1,5 +1,4 @@
-url: https://dhananjay-fe.github.io/
-baseurl: /jobs
+baseurl: /
 collections:
   jobs:
     output: true
