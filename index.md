@@ -29,10 +29,11 @@ layout: none
       <h1 id = "job_lst_txt" >Available jobs</h1>
       <div  class="uk-margin uk-card uk-card-default uk-card-body">
         {% for job in site.jobs %}
-          <h2>
-            <a href="{{ job.url | relative_url }}" >
-              {{ job.title }}
-            </a>
+          <h2 class ="job_block">
+            <div class="bullet_jobs">&nbsp;</div>
+              <a  href="{{ job.url | relative_url }}" >
+                  {{ job.title }}
+              </a>
           </h2>
           <p>{{ job.description | markdownify }}</p>
           <div id="job_info_row">
@@ -40,7 +41,9 @@ layout: none
             <p><b>Location: </b>{{ job.location  }}</p>
             <p><b>Seniority:</b> {{  job.Seniority  }}</p>
           </div>
-          <div id="job_lst_line"> </div>
+          {% if forloop.last == false %}
+            <div id="job_lst_line"> </div>
+          {% endif %}
        {% endfor %}
       </div>
     </div>

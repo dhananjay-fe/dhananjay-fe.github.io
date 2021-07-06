@@ -15,7 +15,7 @@ html{
 
 #Homepage .header_img{
      order : 1;
-     z-index: 3;
+     z-index: 4;
      flex: 1 1 1.5%;
      align-self: flex-start;
  }
@@ -30,7 +30,7 @@ html{
 .sec1 .logo_container{
     flex: 1 1 auto;
     margin-left: -80px;
-    margin-top: 12.85px;
+    margin-top: -9px;
     height: 87%;
     background: #F4F4F4;
     transform: rotate(-3.71deg);
@@ -63,7 +63,7 @@ transform: rotate(3.71deg);
 .logo_container2 .comp_logo{
     flex: 1 1 auto;
     margin-left: 222px;
-    margin-top: 21.93px;
+    margin-top: 31px;
     width: 174px;
 height: 38px;
 transform: rotate(3.71deg);
@@ -133,7 +133,7 @@ color: #FDB724;
 }
 
 #subscribe{
-    margin-left: 15%;
+    margin-left: 1%;
 }
 
 #sub_text{
@@ -179,4 +179,20 @@ margin-bottom: 11%;
     justify-content: space-between;
     margin-right: 15%;
     width: 69%;
+}
+
+.job_block{
+    display: flex;
+    align-items : center;
+}
+ 
+.job_block > div{
+    width: 15px;
+    height: 7px;
+    vertical-align: middle;     
+    background: #000000;
+}
+ 
+.job_block > a{
+    padding-left: 10px;   
 }
