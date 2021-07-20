@@ -7,24 +7,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
         {% assign mycss = "/assets/css/main.css" %}
-        <link rel="stylesheet" href= "{{ mycss | relative_url }}">
+        <link rel="stylesheet" href= "{{ mycss | relative-url }}">
     </head>
     <div id = "Homepage">
         
         <section class="sec1">
-            <div class = "logo_container2">
+            <div class = "logo-container2">
                 {% assign myLogo = "/assets/images/Frame1.png" %}
-                <img class = "comp_logo" src="{{ myLogo | relative_url }}">
-                <dl id='job_info'>
+                <img class = "company-logo" src="{{ myLogo | relative-url }}">
+                <dl id='job-info'>
                     <strong  style="font-size:48px">{{ page.title   }}</strong>  
                     <p><b>Keywords:</b> {{ page.Keywords  }}</p>
                     <p><b>Keywords:</b> {{ page.location  }}</p>
                     <p><b>Seniority:</b> {{  page.Seniority  }}</p>
                 </dl>
             </div>
-            <div class = "landing_img_flex">
+            <div class = "landing-img-flex">
                 {% assign myImg2 = "/assets/images/Rectangle33.png" %}
-                <img class = "landing_img" src="{{ myImg2 | relative_url }}">
+                <img class = "landing-img" src="{{ myImg2 | relative-url }}">
             </div>
         </section>    
     
@@ -42,9 +42,9 @@
 
         <section class="sec3">
             <div id="subscribe">
-                <span id = "sub_text">Subscribe to get alerts</span>
+                <span id = "sub-text">Subscribe to get alerts</span>
                 <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
-                <button id="get_notified"id= "btnApply" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>    
+                <button id="get-notified"id= "btnApply" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>    
             </div>
         </section>
         {% include footer.html %}
