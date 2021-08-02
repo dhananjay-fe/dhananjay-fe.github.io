@@ -56,15 +56,21 @@ layout: none
     </div>
   </section>
   
-  <section class="sec3">
+<section class="sec3">
     <div id="subscribe">
       <span id="sub-text">Subscribe to get alerts</span>
       <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
-      <button id="get-notified" id= "btnApply" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
+            <div class="notified-block">
+                      <div class="notified-block">
+                            <button id="get-notified" class= "notified-block" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
+                      </div>        
+                      <div class= "notified-block">
+                          <h2 class="share-link-home">
+                          <a href="#" class="share-link">
+                            Share This Page
+                          </a>
+                          </h2>
+                      </div>
+            </div>
     </div>
   </section>
-  <div class="footer-baground">
-      &nbsp; 
-  </div>
-</div>
-
