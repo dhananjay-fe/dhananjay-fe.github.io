@@ -60,17 +60,20 @@ layout: none
     <div id="subscribe">
       <span id="sub-text">Subscribe to get alerts</span>
       <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
-            <div class="notified-block">
+            <div class="notified-block-container">
                       <div class="notified-block">
                             <button id="get-notified" class= "notified-block" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
                       </div>        
-                      <div class= "notified-block">
-                          <h2 class="share-link-home">
-                          <a href="#" class="share-link">
+                      <div class= "share-link-home">
+                          <a href="#" style="float: right">
                             Share This Page
+                            <img src="./assets/images/image1.png" style="float: right;margin-left: 10px;margin-right:10 px;" />
                           </a>
-                          </h2>
                       </div>
             </div>
     </div>
   </section>
+    <div class="footer-baground">
+      &nbsp; 
+    </div>
+</div>

@@ -1,5 +1,11 @@
+@font-face {
+    font-family: robo;
+    src: url('../fonts/RobotoSlab-VariableFont_wght.ttf');
+  
+}
+
 html{
-    font-family: Roboto Slab;
+    font-family: robo;
     font-style: Regular;
     color: #000000;
 }
@@ -7,6 +13,17 @@ html{
 body {    
     margin: 0;
     padding: 0;
+}
+
+
+
+
+.job-details-data2{
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    word-wrap: break-word;
+    width: 90%;
+    margin-right: 10%;
 }
 
 
@@ -27,14 +44,26 @@ body {
  } */
 
  .banner1{
-    background: url('/assets/images/assets_images_combined_image.png');
-    background-repeat: no-repeat; 
-   /* background-size:contain;
-    background-position:center; */
-  background-size: 100% 110%;
-   height: 75%;
+   background: url(/assets/images/combine_images_FirstPage_Header.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   height: 100%;
    width: 100%;
    z-index: -1;
+   padding-bottom: 10%;
+   top : 0;
+   left : 0;
+   right : 0;
+
+ }
+
+ #Homepage .banner2{
+    background: url('/assets/images/banner-image-second-page.png');
+    background-repeat: no-repeat; 
+   background-size: 100% 110%;
+   height: 75%;
+   width: 100%;
+   z-index: 5;
    top: 0; 
    left: 0; 
    right: 0; 
@@ -92,8 +121,8 @@ body {
     margin-left: -82.88px;
     margin-top: -23,36px;
     height: 87%;
-    background: #F4F4F4;
-    transform: rotate(-3.71deg);
+    /* background: #F4F4F4; */
+    /* transform: rotate(-3.71deg); */
     display:flex;
     flex-direction: column;
     z-index: 2;
@@ -103,7 +132,7 @@ body {
     flex: 1 1 auto;
     /* margin-left: 222px; */
 
-    margin-top: 10%;
+    margin-top: 5%;
     width: 174px;
     height: 38px;
     /* transform: rotate( 
@@ -120,11 +149,11 @@ body {
 
 .logo-container2 .company-logo{
     flex: 1 1 auto;
-    margin-left: 222px;
+    margin-left: 15%;
     margin-top: 31px;
     width: 174px;
-height: 38px;
-transform: rotate(3.71deg);
+    height: 38px;
+    /* transform: rotate(3.71deg); */
 }
 
 .logo-container #innovate{
@@ -133,6 +162,7 @@ transform: rotate(3.71deg);
     font-weight: bolder;
     /* margin-left: 220px; */
     font-size: 48px;
+    font-size: 2vw;
     line-height: 115%;
     Fill: Solid rgba(0, 0, 0, 0.9);
     width: 35%;
@@ -143,6 +173,7 @@ transform: rotate(3.71deg);
     font-weight: normal;
     /* margin-left: 220px; */
     font-size: 24px;
+    font-size: 1vw;
     line-height: 175%;
     Fill: Solid
     #000000;
@@ -157,13 +188,17 @@ transform: rotate(3.71deg);
     margin-left: 10%;
 }
 
+.sec2 .a{
+    margin-left: 0%;
+
+}
 #Homepage .sec3{
     flex: 1 1 auto;
     order : 4;
     background: #F4F4F4;
     width: 100%;
     display: flex;
-    
+    padding-bottom: 5%;
     /* justify-content: space-around; */
 }
 
@@ -195,7 +230,19 @@ color: #FDB724;
     height: 7px;
      width: 90%;
     margin-right: 10%;
-   
+    
+}
+
+#job-lst-line-second-page{
+    background: #FDB724;
+    height: 7px;
+    
+}
+
+.second-page-headline{
+    font-weight: 900;
+    font-size: 26px;
+    padding-top: 1%;
 }
 
 #subscribe{
@@ -211,33 +258,96 @@ color: #FDB724;
 }
 
 #get-notified{
-    background: #C4C4C4;
+    /* background: #C4C4C4;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
     font-weight: 900;
 font-size: 30px;
 line-height: 112.5%;
 /* or 34px */
+/*color: #000000;
+margin-bottom: 0.045%; */
+
+background: #C4C4C4;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+font-weight: 900;
+border: none;
+font-size: 30px;
+line-height: 112.5%;
+/* or 34px */
 color: #000000;
-margin-bottom: 0.045%;
+margin-bottom: 10%;
+
+}
+.notified-block{
+    display:inline-block;
 }
 
+#share-link-home{
+    width: 193px;
+    height: 56px;
+    left: 1026px;
+    top: 2248px;
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 175%;
+    /* or 35px */
+    
+    text-decoration-line: underline;
+    font-variant: small-caps;
+    
+    color: #000000;
+	align-items: right;
+}
+
+
+
 #btnApply{
+/* font-weight: 900;
+font-size: 30px;
+line-height: 112.5%; */
+/* or 34px */
+/* color: #FFFFFF;
+background: #FDB724;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+margin-bottom: 11%; */
+
+
 font-weight: 900;
 font-size: 30px;
 line-height: 112.5%;
+border: none;
+background: none;
 /* or 34px */
 color: #FFFFFF;
 background: #FDB724;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 margin-bottom: 11%;
+
 }
 
 .logo-container2 #job-info{
     flex: 1 1 auto;
-    margin-left: 220px;
+    margin-left: 15%;
     Fill: Solid;
-    transform: rotate(3.71deg);
+    /* transform: rotate(3.71deg); */
 }
+
+
+.logo-container2 .job-title{
+    line-height: 100%;
+    padding-top: 2%;
+}
+
+.logo-container2 .job-pointers{
+   
+    line-height: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 
 #job-info-row{
     display: flex;
