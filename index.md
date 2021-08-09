@@ -19,7 +19,7 @@ layout: none
       <div class="banner1" >     
             <section class="sec1">
               <div class = "logo-container">
-                <div class = "company-logo" > &nbsp; </div>
+                <div class = "company-logo" ></div>
                 <span id = "innovate">Innovation happens when you are free to experiment.</span>
                 <span id = "leap">The leap toward innovation can seem giant, but with daily practice it will eventually happen.</span>
               </div>
