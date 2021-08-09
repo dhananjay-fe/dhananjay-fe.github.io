@@ -23,7 +23,6 @@ layout: none
                 <span id = "innovate">Innovation happens when you are free to experiment.</span>
                 <span id = "leap">The leap toward innovation can seem giant, but with daily practice it will eventually happen.</span>
               </div>
-              <div class = "landing-img"> &nbsp; </div>
             </section>
       </div>
   </section>
