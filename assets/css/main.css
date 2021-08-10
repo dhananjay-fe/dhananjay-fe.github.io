@@ -149,7 +149,7 @@ body {
 
 .logo-container2 .company-logo{
     flex: 1 1 auto;
-    margin-left: 21%;
+    margin-left: 18%;
     margin-top: 31px;
     width: 174px;
     height: 38px;
@@ -158,28 +158,21 @@ body {
 
 .logo-container2 #job-info{
     flex: 1 1 auto;
-    margin-left: 21%;
+    margin-left: 19%;
     Fill: Solid;
     /* transform: rotate(3.71deg); */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) and (min-width: 700px) {
     #job-info {
-      margin-left: 23%;
+      margin-left: 23.5%;
     }
     #company-logo {
-        margin-left: 22%;
+        margin-left: 22.5%;
       }
   }
 
-  @media screen and (min-width: 900px) {
-    #job-info {
-      margin-left: 16%;
-    }
-    #company-logo {
-        margin-left: 15%;
-      }
-  }
+
 
 .logo-container #innovate{
     padding-top: 2%; 
