@@ -163,12 +163,14 @@ body {
     /* transform: rotate(3.71deg); */
 }
 
-@media screen and (max-width: 350px) and (min-width: 700px) {
+@media screen and (max-width: 350px) {
     #job-info {
       margin-left: 23.5%;
+      padding-left: 0.1%;
     }
     #company-logo {
         margin-left: 22.5%;
+        padding-left: 0.1%;
       }
   }
 
