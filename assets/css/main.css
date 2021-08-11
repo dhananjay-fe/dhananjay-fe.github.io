@@ -190,27 +190,27 @@ body {
 .logo-container #innovate{
     padding-top: 2%; 
     flex: 1 1 auto;
-    font-weight: bolder;
+    font-weight: 900;
     /* margin-left: 220px; */
     font-size: 48px;
-    font-size: 2vw;
+    font-size: 3.3vw;
     line-height: 115%;
     Fill: Solid rgba(0, 0, 0, 0.9);
-    width: 35%;
+
 }
 
 .logo-container #leap{
     flex: 1 1 auto;
-    font-weight: normal;
+    font-weight: 400;
     /* margin-left: 220px; */
     font-size: 24px;
-    font-size: 1vw;
+    font-size: 1.35vw;
     line-height: 175%;
     Fill: Solid
     #000000;
 
     padding-top: 1%;
-    width: 27%;
+    
 }
 
 #Homepage .sec2{
