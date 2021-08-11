@@ -13,3 +13,5 @@ _site/jobs/database.html
 _site/jobs/front-end.html
 _site/jobs/java.html
 _site/README.md
+_site/*.*
+.jekyll-cache/*.*
