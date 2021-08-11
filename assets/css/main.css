@@ -21,7 +21,6 @@ body {
 .job-details-data2{
     /* margin-left: 10%;
     margin-right: 10%; */
-    word-wrap: break-word;
     width: 90%;
     margin-right: 10%;
 }
@@ -281,7 +280,8 @@ color: #FDB724;
 .second-page-headline{
     font-weight: 900;
     font-size: 26px;
-    padding-top: 1%;
+    line-height: 1.75;
+    padding-top: 5%;
 }
 
 #subscribe{
@@ -296,6 +296,15 @@ font-size: 36px;
 line-height: 115%;
 /* or 41px */
 color: #FDB724;
+}
+
+#subscribe > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 175%;
+    /* or 42px */
+    color: #000000;
 }
 
 #get-notified{
@@ -406,4 +415,20 @@ font-size: 26px;
 line-height: 1.75;
 color: #000000;
 padding-bottom: 0%;
+}
+
+.job-details-data2 > p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.75;
+    font-style: normal;
+    color: #000000;
+}
+
+.job-details-data2 > ul {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: normal;
+    color: #000000;
 }

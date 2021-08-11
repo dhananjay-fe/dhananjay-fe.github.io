@@ -7,7 +7,7 @@ Seniority: Junior Level
 layout: default
 ---
 
-<div class= "second-page-headline">DB Jobs Description </div>
+<div class= "second-page-headline">&nbsp;</div>
 
 We are an engineering company building products that enable agile companies to implement enterprises grade, no-code solutions for data processing, social workforce performance management and citizen app development for mobile and the web. While being present in Iasi for more than 15 years, for the last couple of years we are having a fresh start building a suite of innovative new products.
 
