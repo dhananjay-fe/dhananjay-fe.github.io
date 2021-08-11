@@ -44,7 +44,7 @@ layout: none
                   {{ job.title }}
               </a>
           </h2>
-          <p>{{ job.description | markdownify }}</p>
+          <p>{{ job.description }}</p>
           <div id="job-info-row">
             <p><b>Seniority:</b> {{  job.Seniority  }}</p>
             <p><b>Keywords: </b>{{ job.Keywords  }}</p>

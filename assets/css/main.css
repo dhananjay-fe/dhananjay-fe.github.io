@@ -230,7 +230,7 @@ body {
     width: 100%;
     display: flex;
     padding-bottom: 2.5%;
-    padding-top: 2.5%;
+    padding-top: 5%;
     /* justify-content: space-around; */
 }
 
@@ -262,7 +262,6 @@ color: #FDB724;
     height: 7px;
      width: 90%;
     margin-right: 10%;
-    margin-top: 5%;
 
     
 }
@@ -383,6 +382,7 @@ width: 352px;
     justify-content: space-between;
     margin-right: 10%;
     width: 90%;
+    margin-bottom: 5%
 }
 
 .job-block{
@@ -395,6 +395,7 @@ width: 352px;
     height: 7px;
     vertical-align: middle;     
     background: #000000;
+    padding:0%;
 }
  
 .job-block > a{
@@ -404,4 +405,5 @@ font-weight: 900;
 font-size: 26px;
 line-height: 1.75;
 color: #000000;
+padding-bottom: 0%;
 }
