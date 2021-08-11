@@ -1,6 +1,6 @@
 ---
 title: Front End Developer
-description: Short description content for this job title
+description: Apply now for Front-End or Back-End teams and embark on a fast recruitment process for your internship journey.
 Keywords: Java, React, FrontEnd
 location: Iasi
 Seniority: Senior Level

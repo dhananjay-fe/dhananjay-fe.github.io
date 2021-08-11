@@ -1,6 +1,6 @@
 ---
 title: Java Developer
-description: Short description content for this job title
+description: Apply now for Front-End or Back-End teams and embark o for your internship journey.
 Keywords: FrontEnd, Java
 location: Iasi
 Seniority: Junior Level

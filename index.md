@@ -20,10 +20,14 @@ layout: none
             <section class="sec1">
               <div class = "logo-container">
                 <div class = "company-logo" ></div>
-                <span id = "innovate">Innovation happens when you are free to experiment.</span>
+                <span id = "innovate">Innovation happens<br> when you are free to<br> experiment.</span>
                 <span id = "leap">The leap toward innovation can seem giant, but with daily practice it will eventually happen.</span>
               </div>
             </section>
+                          <a href="#" style="float: right;color:white;">
+                            SHARE THIS PAGE
+                            <img src="/assets/images/image2.png" style="float: right;margin-left:10px;margin-right:50px;" />
+                          </a>
       </div>
   </section>
 
@@ -32,7 +36,7 @@ layout: none
   <section class="sec2">
     <div id="job-list">
       <h1 id = "job-lst-txt" >Available jobs</h1>
-      <div  class="uk-margin uk-card uk-card-default uk-card-body">
+      <div  class="uk-margin uk-card uk-card-default uk-card-body" id="jobs-flex">
         {% for job in site.jobs %}
           <h2 class ="job-block">
             <div class="bullet-jobs">&nbsp;</div>
@@ -42,9 +46,9 @@ layout: none
           </h2>
           <p>{{ job.description | markdownify }}</p>
           <div id="job-info-row">
+            <p><b>Seniority:</b> {{  job.Seniority  }}</p>
             <p><b>Keywords: </b>{{ job.Keywords  }}</p>
             <p><b>Location: </b>{{ job.location  }}</p>
-            <p><b>Seniority:</b> {{  job.Seniority  }}</p>
           </div>
           {% if forloop.last == false %}
             <div id="job-lst-line"> </div>
@@ -58,14 +62,14 @@ layout: none
     <div id="subscribe">
       <span id="sub-text">Subscribe to get alerts</span>
       <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
-            <div class="notified-block-container">
-                      <div class="notified-block">
-                            <button id="get-notified" class= "notified-block" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
-                      </div>        
+            <div class="notified-block-container">                             
                       <div class= "share-link-home">
-                          <a href="#" style="float: right">
-                            Share This Page
-                            <img src="./assets/images/image1.png" style="float: right;margin-left: 10px;margin-right:10 px;" />
+                      <div class="notified-block">
+                            <button id="get-notified" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
+                      </div> 
+                          <a href="#" >
+                            SHARE THIS PAGE
+                            <img src="./assets/images/image1.png" style="float: right;margin-left:10px;margin-right:50px;"/>
                           </a>
                       </div>
             </div>

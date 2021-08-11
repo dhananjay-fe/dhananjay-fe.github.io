@@ -5,7 +5,7 @@
         <title>Jobs : {{ page.title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" /> -->
         {% assign mycss = "/assets/css/main.css" %}
         <link rel="stylesheet" href= "{{ mycss | relative_url }}">
     </head>
@@ -23,7 +23,9 @@
                             </div>
                             <div class="job-pointers">
                                 <p style="font-size: 1.3vw"><b>Seniority:</b> {{  page.Seniority  }}</p>
+                                <br>
                                 <p style="font-size: 1.3vw"><b>Keywords:</b> {{ page.Keywords  }}</p>
+                                <br>
                                 <p style="font-size: 1.3vw"><b>Location:</b> {{ page.location  }}</p>
                             </div>
                         </dl>
@@ -38,10 +40,15 @@
 
             
         <section class="sec2">
+        <div>
         <a href="/">View all jobs</a>
             <div  class="job-details-data">
                 <!-- <h1>{{ page.title }}</h1> -->
-
+                <a href="#" style="float: right">
+                    SHARE THIS PAGE
+                    <img src="/assets/images/image1.png" style="float: right;margin-left:10px;margin-right:50px;"/>
+                  </a>
+        </div>
                 <article class="uk-article">
                     <div  class="job-details-data2">
                         {{ content }}
@@ -53,13 +60,22 @@
 
         <section class="sec3">
             <div id="subscribe">
-                <span id = "sub-text">Subscribe to get alerts</span>
-                <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
-                <button id="get-notified" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>    
+                <span id="sub-text">Subscribe to get alerts</span>
+      <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
+            <div class="notified-block-container">                             
+                      <div class= "share-link-home">
+                      <div class="notified-block">
+                            <button id="get-notified" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
+                      </div> 
+                          <a href="#" >
+                            SHARE THIS PAGE
+                            <img src="/assets/images/image1.png" style="float: right;margin-left:10px;margin-right:50px;"/>
+                          </a>
+                      </div>
             </div>
         </section>
         <div class="footer-baground">
-            &nbsp; 
+        &nbsp;
         </div>
     </div>
 </html>
