@@ -222,6 +222,46 @@ body {
     margin-left: 0%;
 
 }
+
+#view_jobs_lnk{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 175%;
+    /* identical to box height, or 42px */
+    
+    text-decoration-line: underline;
+    font-variant: small-caps;
+    
+    color: #000000;
+}
+
+#shr_pg{
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 175%;
+/* or 35px */
+
+text-decoration-line: underline;
+font-variant: small-caps;
+
+color: #000000;
+}
+
+#shr_pg_landing{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 175%;
+/* or 28px */
+
+text-decoration-line: underline;
+font-variant: small-caps;
+
+color: #FFFFFF;
+}
+
 #Homepage .sec3{
     flex: 1 1 auto;
     order : 4;

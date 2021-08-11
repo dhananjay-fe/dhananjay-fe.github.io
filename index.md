@@ -24,7 +24,7 @@ layout: none
                 <span id = "leap">The leap toward innovation can seem giant, but with daily practice it will eventually happen.</span>
               </div>
             </section>
-                          <a href="#" style="float: right;color:white;">
+                          <a id="shr_pg_landing" href="#" style="float: right;color:white;">
                             SHARE THIS PAGE
                             <img src="/assets/images/image2.png" style="float: right;margin-left:10px;margin-right:50px;" />
                           </a>
@@ -67,7 +67,7 @@ layout: none
                       <div class="notified-block">
                             <button id="get-notified" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
                       </div> 
-                          <a href="#" >
+                          <a id="shr_pg" href="#" >
                             SHARE THIS PAGE
                             <img src="./assets/images/image1.png" style="float: right;margin-left:10px;margin-right:50px;"/>
                           </a>
