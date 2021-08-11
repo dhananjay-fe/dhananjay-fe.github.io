@@ -391,12 +391,17 @@ width: 352px;
 }
  
 .job-block > div{
-    width: 15px;
+    width: 34px;
     height: 7px;
     vertical-align: middle;     
     background: #000000;
 }
  
 .job-block > a{
-    padding-left: 10px;   
+    padding-left: 10px;
+    font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 1.75;
+color: #000000;
 }
