@@ -337,15 +337,18 @@ font-size: 36px;
 line-height: 115%;
 /* or 41px */
 color: #FDB724;
+
 }
 
 #subscribe > p {
+    padding-top: 2%;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 175%;
     /* or 42px */
     color: #000000;
+    padding-bottom: 2%;
 }
 
 #get-notified{
