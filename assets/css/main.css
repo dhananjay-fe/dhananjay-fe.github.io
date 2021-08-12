@@ -472,4 +472,6 @@ padding-bottom: 0%;
     font-style: normal;
     color: #000000;
     margin-left:-5%;
+        list-style: none;
 }
+.job-details-data2 > ul li:before{ content:"• "; font-size:10pt; }
