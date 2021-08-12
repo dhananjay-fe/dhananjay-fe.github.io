@@ -14,19 +14,19 @@
         <div class="banner2">
                 <section class="sec1">
                     <div class = "logo-container2">
-                        {% assign myLogo = "/assets/images/Frame1.png" %}
+                        {% assign myLogo = "/assets/images/layer1.svg" %}
                         <img class = "company-logo" src="{{ myLogo | relative-url }}">
                         
                         <dl id="job-info">
                             <div class="job-title">
-                                <strong style="font-size: 2.8vw">{{ page.title   }}</strong>  
+                                <strong style="font-size: 4vw">{{ page.title   }}</strong>  
                             </div>
                             <div class="job-pointers">
-                                <p style="font-size: 1.3vw"><b>Seniority:</b> {{  page.Seniority  }}</p>
+                                <p style="font-size: 2vw"><b>Seniority:</b> {{  page.Seniority  }}</p>
                                 <br>
-                                <p style="font-size: 1.3vw"><b>Keywords:</b> {{ page.Keywords  }}</p>
+                                <p style="font-size: 2vw"><b>Keywords:</b> {{ page.Keywords  }}</p>
                                 <br>
-                                <p style="font-size: 1.3vw"><b>Location:</b> {{ page.location  }}</p>
+                                <p style="font-size: 2vw"><b>Location:</b> {{ page.location  }}</p>
                             </div>
                         </dl>
                     </div>
@@ -40,15 +40,17 @@
 
             
         <section class="sec2">
-        <div>
-            <a id="view_jobs_lnk" href="/">View all jobs</a>
+            <div class="notified-block-container">                             
+                <div class= "share-link-home">
+                 <a id="view_jobs_lnk" href="/">View all jobs</a>
                 <!-- <div  class="job-details-data">  -->
                 <!-- <h1>{{ page.title }}</h1> -->
-            <a id="shr_pg" href="#" style="float: right">
-                SHARE THIS PAGE
-                <img src="/assets/images/image1.png" style="float: right;margin-left:10px;margin-right:50px;"/>
-            </a>
-        </div>
+                    <a id="shr_pg" href="#" >
+                      SHARE THIS PAGE 
+                    </a>
+                    <div class="image1" ></div> 
+                </div>
+                
                 <article class="uk-article">
                     <div  class="job-details-data2">
                         {{ content }}
@@ -68,9 +70,9 @@
                         <button id="get-notified" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
                     </div> 
                     <a id="shr_pg" href="#" >
-                        SHARE THIS PAGE
-                        <img src="/assets/images/image1.png" style="float: right;margin-left:10px;margin-right:50px;"/>
+                      SHARE THIS PAGE 
                     </a>
+                    <div class="image1" ></div> 
                 </div>
             </div>
             </div>

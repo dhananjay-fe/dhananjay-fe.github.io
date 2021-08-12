@@ -245,6 +245,7 @@ text-decoration-line: underline;
 font-variant: small-caps;
 
 color: #000000;
+margin-left:60%;
 }
 
 #shr_pg_landing{
@@ -258,6 +259,7 @@ text-decoration-line: underline;
 font-variant: small-caps;
 
 color: #FFFFFF;
+margin-left:80%;
 }
 
 #Homepage .sec3{
@@ -380,6 +382,24 @@ height: 64px;
     justify-content: space-between;
 }
 
+ .image1{
+    width: 24px;
+    height: 26px;
+    background: url(/assets/images/image1.png);
+    filter: contrast(-100);
+    margin-right:5%;
+    margin-top: 0.5%;
+  }
+
+.image2{
+    width: 24px;
+    height: 24px;
+    background: url(/assets/images/image2.png);
+    background-repeat: no-repeat; 
+    background-size:auto;
+    margin-right:10%;
+    margin-top: 0.5%;
+  }
 
 
 #btnApply{
