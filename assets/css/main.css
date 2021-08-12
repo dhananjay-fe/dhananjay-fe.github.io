@@ -37,7 +37,7 @@ body {
    background: url(/assets/images/combine_images_FirstPage_Header_v1.png);
    background-repeat: no-repeat;
    background-size: cover;
-  padding-bottom: 10%;
+  padding-bottom: 3%;
   background-position-x: 0;
   background-position-y: 0;
    /*background-size: 100% 100%;
@@ -137,8 +137,7 @@ body {
   }
 
 .logo-container #innovate{
-    padding-top: 2%; 
-    flex: 1 1 auto;
+    padding-top: 3%; 
     font-weight: 900;
     font-size: 48px;
     font-size: 4vw;
@@ -150,7 +149,7 @@ body {
     font-size: 24px;
     font-size: 2vw;
     line-height: 175%;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 3%;
 }
 
@@ -203,7 +202,8 @@ text-decoration-line: underline;
 font-variant: small-caps;
 
 color: #FFFFFF;
-margin-left:60%;
+margin-left:80%;
+margin-bottom: 1%
 }
 
 #Homepage .sec3{
@@ -341,8 +341,8 @@ height: 64px;
     background: url(/assets/images/image2.png);
     background-repeat: no-repeat; 
     background-size:auto;
-    margin-right:4%;
-    margin-top: 0.5%;
+    /*margin-right:4%;*/
+    /*margin-top: 0.5%;*/
   }
 
 
