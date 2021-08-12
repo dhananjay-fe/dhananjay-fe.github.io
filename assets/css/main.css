@@ -33,51 +33,41 @@ body {
     justify-content: flex-start;
 }
 
-/* #Homepage .header-img{
-     order : 1;
-     z-index: 4;
-     flex: 1 1 1.5%;
-     align-self: flex-start;
- } */
-
  .banner1{
-   background: url(/assets/images/combine_images_FirstPage_Header.png);
+   background: url(/assets/images/combine_images_FirstPage_Header_v1.png);
    background-repeat: no-repeat;
-   background-size: 100% 100%;
+   background-size: cover;
+  padding-bottom: 10%;
+  background-position-x: 0;
+  background-position-y: 0;
+   /*background-size: 100% 100%;
    height: 100%;
    width: 100%;
    z-index: -1;
    padding-bottom: 10%;
    top : 0;
    left : 0;
-   right : 0;
+   right : 0;*/
 
  }
 
  #Homepage .banner2{
     background: url('/assets/images/banner-image-second-page.png');
-    background-repeat: no-repeat; 
+    /*background-repeat: no-repeat; 
    background-size: 100% 110%;
    height: 75%;
    width: 100%;
    z-index: 5;
    top: 0; 
    left: 0; 
-   right: 0; 
+   right: 0; */
+   background: url('/assets/images/banner-image-second-page.png');
+   background-repeat: no-repeat; 
+  background-size: cover;
+  background-position-x: 0;
+  background-position-y: 0;
 
  }
-
- #Homepage .myheaderid{
-    background: url('/assets/images/assets_images_combined_image.png');
-    background-repeat: no-repeat; 
-   background-size: 100% 110%;
-   z-index: 5;
-   top: 0; 
-   left: 0; 
-   right: 0; 
-
- }
-
 
 #Homepage .sec1{
     flex: 1 1 auto;
@@ -89,75 +79,39 @@ body {
 .sec1 .logo-container{
     flex: 1 1 auto;
     margin-left: 10%;
-    /* flex-wrap: wrap; */
-    margin-top: -40px;
-    height: 65%;
     display: flex;
     flex-direction: column;
-  
-
-
 }
-
-.sec1 .landing-img{
-    flex: 1 1 auto;
-    height: 100%;
-    margin-left: -50px;
-    /* background: url('/assets/images/Rectangle1.png'); */
-    background-repeat: no-repeat; 
-    background-size: 100% 100%;
-    /* top: 0; 
-    left: 0; 
-    right: 0;  */
-
-}
-
 
 .sec1 .logo-container2{
     flex: 1 1 auto;
-    margin-left: -82.88px;
-    margin-top: -23,36px;
-    height: 87%;
-    /* background: #F4F4F4; */
-    /* transform: rotate(-3.71deg); */
     display:flex;
     flex-direction: column;
-    z-index: 2;
 }
 
 .logo-container .company-logo{
-    flex: 1 1 auto;
-    /* margin-left: 222px; */
-
     margin-top: 8%;
     width: 174px;
     height: 38px;
-    /* transform: rotate( 
-3.71deg
- ); */
-    background: url(/assets/images/Frame1.png);
+    background: url(/assets/images/Layer1.svg);
     background-repeat: no-repeat;
-    /* background-size: 175px 38px; */
-    top: 0;
-    left: 0;
-    right: 0;
+    background-size: cover;
 }
 
 
 .logo-container2 .company-logo{
-    flex: 1 1 auto;
-    margin-left: 16%;
-    margin-top: 31px;
+    margin-left: 10%;
+    margin-top: 4%;
     width: 174px;
     height: 38px;
-    /* transform: rotate(3.71deg); */
+    background: url(/assets/images/Layer1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo-container2 #job-info{
     flex: 1 1 auto;
-    margin-left: 17%;
-    Fill: Solid;
-    /* transform: rotate(3.71deg); */
+    margin-left: 11%;
 }
 
 @media  (max-width: 400px) {
@@ -165,7 +119,7 @@ body {
       margin-left: 23.5%;
       padding-left: 0.1%;
     }
-    #company-logo {
+    .company-logo {
         margin-left: 22.5%;
         width: 17.84px;
         height: 16px;
@@ -176,38 +130,28 @@ body {
     #job-info {
       margin-left: 16%;
     }
-    #company-logo {
+    .company-logo {
         margin-left: 15%;
 
       }
   }
 
-
-
 .logo-container #innovate{
     padding-top: 2%; 
     flex: 1 1 auto;
     font-weight: 900;
-    /* margin-left: 220px; */
     font-size: 48px;
-    font-size: 3.3vw;
+    font-size: 4vw;
     line-height: 115%;
-    Fill: Solid rgba(0, 0, 0, 0.9);
-
 }
 
 .logo-container #leap{
-    flex: 1 1 auto;
     font-weight: 400;
-    /* margin-left: 220px; */
     font-size: 24px;
-    font-size: 1.35vw;
+    font-size: 2vw;
     line-height: 175%;
-    Fill: Solid
-    #000000;
-
     padding-top: 1%;
-    
+    padding-bottom: 3%;
 }
 
 #Homepage .sec2{
@@ -259,7 +203,7 @@ text-decoration-line: underline;
 font-variant: small-caps;
 
 color: #FFFFFF;
-margin-left:80%;
+margin-left:60%;
 }
 
 #Homepage .sec3{
@@ -397,7 +341,7 @@ height: 64px;
     background: url(/assets/images/image2.png);
     background-repeat: no-repeat; 
     background-size:auto;
-    margin-right:10%;
+    margin-right:4%;
     margin-top: 0.5%;
   }
 
@@ -433,15 +377,15 @@ width: 352px;
 .logo-container2 .job-title{
     line-height: 100%;
     padding-top: 1%;
-    font-size: 2.8vw;
+    font-size: 4vw;
 
 }
 
 .logo-container2 .job-pointers{
    
-    line-height: 25%;
+    line-height: 15%;
     padding-top: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 
 

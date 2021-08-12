@@ -22,9 +22,9 @@ This is you:</div>
  - Self-motivated – You’ve figured out how to continuously develop yourself and meet certain standards which help your daily work.
 
 <div class= "second-page-headline"> This is what you’ve done:</div>
- - worked with and have a good understanding of how to use JavaScript, CSS and HTML in your projects.
- - played with at least one of the modern JS Frameworks like Angular, React or Vue.js.
- - have a good understanding of how the web works.
+ - Worked with and have a good understanding of how to use JavaScript, CSS and HTML in your projects.
+ - Played with at least one of the modern JS Frameworks like Angular, React or Vue.js.
+ - Have a good understanding of how the web works.
 
 <div class= "second-page-headline">This is us:</div>
  - Entrepreneurial — An entrepreneurial culture where you are encouraged to try new ideas and to quickly fail in the spirit of innovation and continuous improvement.
