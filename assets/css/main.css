@@ -129,13 +129,8 @@ color: #FFFFFF;
     flex: 1 1 auto;
     order : 3;
     margin-left: 10%;
+    margin-right: 10%;
 }
-
-/*.sec2 .a{
-    margin-left: 0%;
-
-}*/
-
 
 
 #job-lst-txt{
@@ -146,14 +141,6 @@ line-height: 175%;
 color: #FDB724;
 }
 
-#job-lst-line{
-    background: #FDB724;
-    height: 7px;
-     width: 90%;
-    margin-right: 10%;
-
-    
-}
 
 
 #jobs-flex{
@@ -163,7 +150,7 @@ color: #FDB724;
 }
 
 
-.job-block > div{
+.job-block .bullet-jobs{
     width: 34px;
     height: 7px;
     vertical-align: middle;     
@@ -171,6 +158,12 @@ color: #FDB724;
     padding:0%;
 }
  
+
+.job-block{
+    display: flex;
+    align-items : center;
+}
+
 .job-block > a{
     padding-left: 10px;
     font-style: normal;
@@ -182,19 +175,53 @@ padding-bottom: 0%;
 text-decoration: none;
 }
 
+.job-descr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.75;
+    margin-right: 10%;
+    color: #000000;
+}
+
 #job-info-row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-right: 10%;
-    width: 90%;
+    /*width: 90%;*/
     margin-bottom: 8%
 }
 
-.job-block{
-    display: flex;
-    align-items : center;
+.kwd-caps{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.75;
+    color: rgba(0, 0, 0, 0.75);
+
 }
+
+.kwd-val{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.75;
+    color: rgba(0, 0, 0, 0.75);
+
+}
+
+#job-lst-line{
+    background: #FDB724;
+    height: 7px;
+    /*width: 90%;*/
+    margin-right: 10%;
+
+    
+}
+
+
+
  
 
 

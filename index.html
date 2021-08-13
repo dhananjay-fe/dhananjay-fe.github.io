@@ -47,11 +47,11 @@ layout: none
                   {{ job.title }}
               </a>
           </h2>
-          <p>{{ job.description }}</p>
+          <p class = "job-descr">{{ job.description }}</p>
           <div id="job-info-row">
-            <p><b>Seniority:</b> {{  job.Seniority  }}</p>
-            <p><b>Keywords: </b>{{ job.Keywords  }}</p>
-            <p><b>Location: </b>{{ job.location  }}</p>
+            <span class = "kwd-caps"><b>Seniority:</b><span class = "kwd-val"> {{  job.Seniority  }}</span></span>
+            <span class = "kwd-caps"><b>Keywords: </b><span class = "kwd-val">{{ job.Keywords  }}</span></span>
+            <span class = "kwd-caps"><b>Location: </b><span class = "kwd-val">{{ job.location  }}</span></span>
           </div>
           {% if forloop.last == false %}
             <div id="job-lst-line"> </div>
