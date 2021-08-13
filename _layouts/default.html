@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;900&display=swap');
+            </style>
         <title>Jobs : {{ page.title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" /> -->
         {% assign mycss = "/assets/css/main.css" %}
         <link rel="stylesheet" href= "{{ mycss | relative_url }}">
+        {% assign mycss_def = "/assets/css/css_default_pg.css" %}
+        <link rel="stylesheet" href= "{{ mycss_def | relative_url }}">
     </head>
     <div id = "Homepage">
         
@@ -39,45 +43,37 @@
 
             
         <section class="sec2">
-            <a id="view_jobs_lnk" href="/">View all jobs</a>
-            <div class="notified-block-container">                             
+            <div class="row1-default">
+                <a id="view_jobs_lnk" href="/">View all jobs</a>
                 <div class= "share-link-home">
-                <!-- <div  class="job-details-data">  -->
-                <!-- <h1>{{ page.title }}</h1> -->
-                    <a id="shr_pg" href="#" >
-                      SHARE THIS PAGE 
-                    </a>
+                    <a id="shr_pg" href="#" >SHARE THIS PAGE</a>
                     <div class="image1" ></div> 
                 </div>
-                
-                <article class="uk-article">
-                    <div  class="job-details-data2">
-                        {{ content }}
-                    </div>
-                </article>
-            <!--  </div>   -->
+            </div>
+            <article class="uk-article">
+                <div  class="job-details-data2">
+                    {{ content }}
+                </div>
+            </article>
             <button id= "btnApply" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">APPLY NOW</button>
         </section>
 
         <section class="sec3">
             <div id="subscribe">
-                <span id="sub-text">Subscribe to get alerts</span>
-                <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
-            <div class="notified-block-container">                             
-                <div class= "share-link-home">
-                    <div class="notified-block">
+              <span id="sub-text">Subscribe to get alerts</span>
+              <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
+                    <div class="notified-block-container">       
+                      <!-- <div class="notified-block"> -->
                         <button id="get-notified" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
-                    </div> 
-                    <a id="shr_pg" href="#" >
-                      SHARE THIS PAGE 
-                    </a>
-                    <div class="image1" ></div> 
-                </div>
+                  <!-- </div>                       -->
+                              <div class= "share-link-home">
+                                  <a id="shr_pg" href="#" >SHARE THIS PAGE</a>
+                                  <span class="image1" ></span> 
+                              </div>
+                              
+                    </div>
             </div>
-            </div>
-        </section>
-        <div class="footer-baground">
-        &nbsp;
-        </div>
+          </section>
+        <div class="footer-baground">&nbsp;</div>
     </div>
 </html>

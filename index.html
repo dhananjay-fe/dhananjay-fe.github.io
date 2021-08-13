@@ -5,6 +5,9 @@ layout: none
 <!DOCTYPE html>
 
 <head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;900&display=swap');
+    </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% assign mycss = "/assets/css/main.css" %}
@@ -13,25 +16,23 @@ layout: none
 
 
  <div id = "Homepage">
-   <section class="sec0">
+   <!-- <section class="sec0"> -->
       <div class="banner1" >     
             <section class="sec1">
               <div class = "logo-container">
                 <div class = "company-logo" ></div>
-                <span id = "innovate">Innovation happens<br> when you are free to<br> experiment.</span>
+                <span id = "innovate"><b>Innovation happens<br> when you are free to<br> experiment.</b></span>
                 <span id = "leap">The leap toward innovation can seem giant, but<br>with daily practice it will eventually happen.</span>
               </div>
             </section>
-            <div class="notified-block-container">                             
-              <div class= "share-link-home">
-                  <a id="shr_pg_landing" href="#" >
-                    SHARE THIS PAGE 
-                  </a>
-                  <span class="image2" ></span> 
+            <!-- <div class="notified-block-container">  -->                           
+               <div class= "share-link-home_landing">
+                  <a id="shr_pg_landing" href="#" >SHARE THIS PAGE</a>
+                  <div class="image2" ></div> 
+             <!--  </div>  -->
               </div>
-            </div>
       </div>
-    </section>
+    <!-- </section> -->
 
 
 
@@ -64,21 +65,17 @@ layout: none
     <div id="subscribe">
       <span id="sub-text">Subscribe to get alerts</span>
       <p>No job listed above for you? You can create a job alert and we will send you an e-mail when a position you are interested becomes available.</p>
-            <div class="notified-block-container">                             
+            <div class="notified-block-container">       
+              <!-- <div class="notified-block"> -->
+                <button id="get-notified" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
+          <!-- </div>  -->                      
                       <div class= "share-link-home">
-                      <div class="notified-block">
-                            <button id="get-notified" onclick="window.location.href='https://forms.office.com/r/QSCWNvEukh'">Get notified</button>
-                      </div> 
-                          <a id="shr_pg" href="#" >
-                            SHARE THIS PAGE 
-                          </a>
+                          <a id="shr_pg" href="#" >SHARE THIS PAGE</a>
                           <div class="image1" ></div> 
                       </div>
                       
             </div>
     </div>
   </section>
-    <div class="footer-baground">
-      &nbsp; 
-    </div>
+    <div class="footer-baground">&nbsp;</div>
 </div>
