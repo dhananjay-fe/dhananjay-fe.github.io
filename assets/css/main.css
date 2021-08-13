@@ -1,11 +1,11 @@
 @font-face {
-    font-family: robo;
-    src: url('/assets/fonts/RobotoSlab-VariableFont_wght.ttf');
+    font-family: Roboto Slab;
+    src: url('/assets/fonts/RobotoSlab-VariableFont_wght.ttf')format('truetype');
   
 }
 
 html{
-    font-family: robo;
+    font-family: Roboto Slab;
     margin: 0;
     padding: 0;}
 
