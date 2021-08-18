@@ -69,7 +69,8 @@
 
 #job-lst-line-second-page{
     background: #FDB724;
-    height: 7px;
+   /* height: 7px; */
+    height: .8vmin;
     
 }
 
@@ -130,10 +131,14 @@
         background: #FDB724;
         box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
         margin-bottom: 11%;
-        height: 14.5vh;
-        width: 26vw;
+        height: 14.5vmin;
+        width: 26vmax;
         cursor: pointer;
         /*height: 105px;
         width: 29.34vw; */
         
+        }
+
+     #btnApply:hover{
+            background-color: #f5bf4c;
         }
