@@ -7,11 +7,13 @@
 html{
     font-family: Roboto Slab;
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    overflow-x: hidden;}
 
 body {    
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #Homepage{
@@ -181,13 +183,26 @@ text-decoration: none;
     color: #000000;
 }
 
-#job-info-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 10%;
-    /*width: 90%;*/
-    margin-bottom: 8%
+@media screen and (max-width:640px){
+    #job-info-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 10%;
+        /*width: 90%;*/
+        margin-bottom: 8%;
+    } 
+}
+
+@media screen and (min-width:641px){
+    #job-info-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10%;
+        /*width: 90%;*/
+        margin-bottom: 8%;
+    } 
 }
 
 .kwd-caps{
@@ -215,7 +230,7 @@ text-decoration: none;
     height: .8vmin;
     /*height: 7px; */
     /*width: 90%;*/
-    margin-right: 10%;
+    margin-right: 2%;
 
     
 }
@@ -258,16 +273,29 @@ color: #FDB724;
     /* or 42px */
     color: #000000;
     padding-bottom: 2%;
+    padding-right: 17%;
 }
 
-.notified-block-container{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+@media screen and (max-width:640px){
+    .notified-block-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width:641px){
+    .notified-block-container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
 }
 
 #get-notified{
-background: #C4C4C4;
+background: #C9C9C9;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 font-weight: 900;
 border: none;
@@ -293,8 +321,8 @@ text-align: center;
     justify-content: space-evenly;
     padding-right: 10%;
     width: 20%;
-    height: 56px;
-    padding-bottom: 6%;
+  /*  height: 56px; */
+    padding-bottom: 3%; 
 }
 
 #shr_pg{
@@ -308,8 +336,8 @@ color:rgba(0, 0, 0, 0.75);
 
 
  .image1{
-    width: 24px;
-    height: 26px;
+    width: 2vmax;
+    height: 2.2vmax;
     background: url(/assets/images/image1.png);
     filter: contrast(-100);
     background-size: contain;

@@ -71,6 +71,7 @@
     background: #FDB724;
    /* height: 7px; */
     height: .8vmin;
+     width: 110%;
     
 }
 
@@ -89,14 +90,47 @@
     color: #000000;
 }
 
-.job-details-data2 > ul {
-    font-weight: 400;
-    font-size: 1.66vw;
-    line-height: 1.75;
-    font-style: normal;
-    color: #000000;
-    margin-left:-1%;
+@media screen and (max-width:480px){
+    .job-details-data2 > ul {
+        font-weight: 400;
+        font-size: 1.66vw;
+        line-height: 1.75;
+        font-style: normal;
+        color: #000000;
+        margin-left:-10%;
         list-style-type: disc;
+        
+        
+    } 
+}
+@media screen and (max-width: 1100px) and (min-width: 481px){
+    .job-details-data2 > ul {
+        font-weight: 400;
+        font-size: 1.66vw;
+        line-height: 1.75;
+        font-style: normal;
+        color: #000000;
+        margin-left:-3%;
+        list-style-type: disc;
+        
+        
+    } 
+} 
+
+
+
+@media screen and (min-width:1101px){
+    .job-details-data2 > ul {
+        font-weight: 400;
+        font-size: 1.66vw;
+        line-height: 1.75;
+        font-style: normal;
+        color: #000000;
+        margin-left:-1%;
+        list-style-type: disc;
+        
+        
+    } 
 }
 
 .job-details-data2 > ul > ::marker {
