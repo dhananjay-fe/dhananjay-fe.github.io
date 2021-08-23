@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
     font-family: Roboto Slab;
     src: url('/assets/fonts/RobotoSlab-VariableFont_wght.ttf')format('truetype');
   
-}
+}*/
 
 html{
     font-family: Roboto Slab;
@@ -61,8 +61,29 @@ body {
     background-size: contain;
 }
 
+@media screen and (max-width:640px){
+    .logo-container #innovate{
+    padding-top: 3%; 
+    margin-top:-8%;
+    font-weight: 900;
+    font-size: 48px;
+    font-size: 2.6vmax;
+    line-height: 115%;
+    width: 75%
+}
 
-.logo-container #innovate{
+.logo-container #leap{
+    font-weight: 400;
+    font-size: 24px;
+    font-size: 1.5vmax;
+    line-height: 175%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+}
+
+@media screen and (min-width:641px){
+    .logo-container #innovate{
     padding-top: 3%; 
     font-weight: 900;
     font-size: 48px;
@@ -79,6 +100,9 @@ body {
     padding-top: 2%;
     padding-bottom: 3%;
 }
+}
+
+
 
 .share-link-home_landing{
     display: flex;
@@ -130,7 +154,7 @@ color: #FFFFFF;
 #job-lst-txt{
 font-weight: 900;
 font-size: 36px;
-font-size: 3vw;
+font-size: 3vmax;
 line-height: 175%;
 /* or 63px */
 color: #FDB724;
@@ -166,7 +190,7 @@ color: #FDB724;
     font-style: normal;
 font-weight: 900;
 font-size: 26px;
-font-size: 2.18vw;
+font-size: 2.18vmax;
 line-height: 1.75;
 color: #000000;
 padding-bottom: 0%;
@@ -177,7 +201,7 @@ text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    font-size: 1.52vw;
+    font-size: 1.70vmax;
     line-height: 1.75;
     margin-right: 10%;
     color: #000000;
@@ -210,7 +234,7 @@ text-decoration: none;
     font-weight: 900;
     font-size: 20px;
     line-height: 1.75;
-    font-size: 1.52vw;
+    font-size: 1.70vmax;
     color: rgba(0, 0, 0, 0.75);
 
 }
@@ -219,7 +243,7 @@ text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    font-size: 1.52vw;
+    font-size: 1.70vmax;
     line-height: 1.75;
     color: rgba(0, 0, 0, 0.75);
 
@@ -257,7 +281,7 @@ text-decoration: none;
 #sub-text{
 font-weight: 900;
 font-size: 36px;
-font-size: 3vw;
+font-size: 3vmax;
 line-height: 115%;
 /* or 41px */
 color: #FDB724;
@@ -268,12 +292,12 @@ color: #FDB724;
     padding-top: 2%;
     font-style: normal;
     font-weight: normal;
-    font-size: 2vw;
+    font-size: 1.52vmax;
     line-height: 175%;
     /* or 42px */
     color: #000000;
     padding-bottom: 2%;
-    padding-right: 17%;
+    padding-right: 20%;
 }
 
 @media screen and (max-width:640px){
@@ -299,7 +323,7 @@ background: #C9C9C9;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 font-weight: 900;
 border: none;
-font-size: 2.5vw;
+font-size: 2.5vmax;
 line-height: 1.125;
 cursor: pointer;
 /* or 34px */
@@ -316,18 +340,35 @@ text-align: center;
     background-color: #d3d3d3;
 }
 
-.share-link-home{
+@media screen and (max-width:640px){
+    .share-link-home{
     display: flex;
-    justify-content: space-evenly;
+   justify-content: flex-start;
     padding-right: 10%;
-    width: 20%;
+     margin-top: 3%;
+    width: 40%;
   /*  height: 56px; */
     padding-bottom: 3%; 
 }
+}
+
+@media screen and (min-width:641px){
+   .share-link-home{
+    display: flex;
+   /* justify-content: space-evenly;  */
+    
+    
+    width: 30%;
+  /*  height: 56px; */
+    padding-bottom: 3%; 
+}
+}
+
+
 
 #shr_pg{
 font-weight: 600;
-font-size: 1.52vw;
+font-size: 1.52vmax;
 line-height: 1.75;
 text-decoration-line: underline;
 /*color: #000000;*/
@@ -365,3 +406,205 @@ color:rgba(0, 0, 0, 0.75);
 
 }
 
+
+
+
+#Homepage .banner2{
+    background: url('/assets/images/banner-image-second-page.png');
+   background: url('/assets/images/banner-image-second-page.png');
+   background-repeat: no-repeat; 
+   background-size: 100% 110%;
+  /*background-size: contain;*/
+ }
+
+ .banner2 .sec1{
+    flex: 1 1 auto;
+    order : 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ .sec1 .logo-container2{
+    flex: 1 1 auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.logo-container2 .company-logo{
+    margin-left: 10%;
+    margin-top: 4%;
+    /*width: 174px;
+    height: 38px;*/
+    width: 32vw;
+    height: 8vh;
+    background: url(/assets/images/Layer1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-container2 #job-info{
+    flex: 1 1 auto;
+    margin-left: 11%;
+}
+
+@media screen and (max-width:640px){
+    .row1-default{
+    margin-top: 2%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 120%;
+}
+}
+
+@media screen and (min-width:641px){
+    .row1-default{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+}
+}
+
+
+
+#view_jobs_lnk{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vmax;
+    line-height: 175%;
+    /* identical to box height, or 42px */
+    
+    text-decoration-line: underline;
+   
+    color: #000000;
+}
+
+
+.job-details-data2{
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    width: 90%;
+    margin-right: 10%;
+    padding-bottom: 3%;
+}
+
+hr {
+  background: #fdb724;
+  height: 0.8vmin;
+  width: 110%;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  
+}
+/* #job-lst-line-second-page{
+    background: #FDB724;
+   
+    height: .8vmin;
+     width: 110%;
+    
+}
+*/
+
+.second-page-headline{
+    font-weight: 900;
+    font-size: 2.2vw;
+    line-height: 1.75;
+    padding-top: 2%;
+}
+
+.job-details-data2 > p {
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 1.75;
+    font-style: normal;
+    color: #000000;
+}
+
+@media screen and (max-width:480px){
+    .job-details-data2 > ul {
+        font-weight: 400;
+        font-size: 1.66vw;
+        line-height: 1.75;
+        font-style: normal;
+        color: #000000;
+        margin-left:-10%;
+        list-style-type: disc;
+        
+        
+    } 
+}
+@media screen and (max-width: 1100px) and (min-width: 481px){
+    .job-details-data2 > ul {
+        font-weight: 400;
+        font-size: 1.66vw;
+        line-height: 1.75;
+        font-style: normal;
+        color: #000000;
+        margin-left:-3%;
+        list-style-type: disc;
+        
+        
+    } 
+} 
+
+
+
+@media screen and (min-width:1101px){
+    .job-details-data2 > ul {
+        font-weight: 400;
+        font-size: 1.66vw;
+        line-height: 1.75;
+        font-style: normal;
+        color: #000000;
+        margin-left:-1%;
+        list-style-type: disc;
+        
+        
+    } 
+}
+
+.job-details-data2 > ul > ::marker {
+    font: icon;
+
+    }
+
+    .logo-container2 .job-title{
+        line-height: 100%;
+        padding-top: 1%;
+        font-size: 4vw;
+        margin-left: -1.5%;
+    
+    }
+    
+    .logo-container2 .job-pointers{
+       
+        line-height: 15%;
+        padding-top: 1%;
+        padding-bottom: 5%;
+        margin-left: -1.5%;
+    }
+
+    #btnApply{
+        font-weight: 900;
+        font-size: 2.5vw;
+        line-height: 112.5%;
+        border: none;
+        background: none;
+        /* or 34px */
+        color: #FFFFFF;
+        background: #FDB724;
+        box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+        margin-bottom: 11%;
+        height: 14.5vmin;
+        width: 26vmax;
+        cursor: pointer;
+        /*height: 105px;
+        width: 29.34vw; */
+        
+        }
+
+     #btnApply:hover{
+            background-color: #f5bf4c;
+        }
