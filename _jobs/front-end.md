@@ -12,6 +12,7 @@ We are an engineering company building products that enable agile companies to i
 
 We are looking for a junior Front End Developer who will collaborate and grow with a team building complex user interfaces and specific components for a new software product.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 **This is you:**
  - Proactive — You are a collaborative team player who likes to build on ideas and innovate.
  - Agile — You are an agile planner who delivers fast results, quickly learns and continuously drives improvements.
