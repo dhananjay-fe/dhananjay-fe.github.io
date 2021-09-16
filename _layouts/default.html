@@ -3,8 +3,9 @@
     <head>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;900&display=swap');
-           </style>
+            </style>
         <title>Jobs : {{ page.title }}</title>
+        <link rel="shortcut icon" type="image/png" href="/assets/images/fevicon.png"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" /> -->
@@ -12,20 +13,22 @@
         <link rel="stylesheet" href= "{{ mycss | relative_url }}">
     </head>
     <div id = "Homepage">
+        
         <div class="banner2">
                 <section class="sec1">
                     <div class = "logo-container2">
                         <div class = "company-logo"></div>
+                        
                         <dl id="job-info">
                             <div class="job-title">
-                                <strong style="font-size: 4vw">{{ page.title   }}</strong>  
+                                <strong style="font-size: 4vmax">{{ page.title   }}</strong>  
                             </div>
                             <div class="job-pointers">
-                                <p style="font-size: 2vw"><b>Seniority:</b> {{  page.Seniority  }}</p>
+                                <p style="font-size: 2vmax"><b>Seniority:</b> {{  page.Seniority  }}</p>
                                 <br>
-                                <p style="font-size: 2vw"><b>Keywords:</b> {{ page.Keywords  }}</p>
+                                <p style="font-size: 2vmax"><b>Keywords:</b> {{ page.Keywords  }}</p>
                                 <br>
-                                <p style="font-size: 2vw"><b>Location:</b> {{ page.location  }}</p>
+                                <p style="font-size: 2vmax"><b>Location:</b> {{ page.location  }}</p>
                             </div>
                         </dl>
                     </div>
@@ -34,7 +37,7 @@
                         <img class = "landing-img" src="{{ myImg2 | relative-url }}">
                     </div> -->
                 </section>    
-
+                
             </div>
 
             
