@@ -1,8 +1,8 @@
- @font-face {
+/* @font-face {
     font-family: Roboto Slab;
     src: url('/assets/fonts/RobotoSlab-VariableFont_wght.ttf')format('truetype');
   
-}
+}*/
 
 html{
     font-family: Roboto Slab;
@@ -243,6 +243,8 @@ margin-left: 1.5%;
 text-decoration: none;
 }
 
+.job-block a:hover { text-decoration: underline; }
+
 @media screen and (max-width:640px){
     .job-descr{
     font-style: normal;
@@ -380,6 +382,7 @@ color: #FDB724;
 }
 
 #get-notified{
+font-family: Roboto Slab;
 background: #C9C9C9;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 font-weight: 900;
